@@ -1,0 +1,44 @@
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+@import 'toastr.scss';
+
+$background-grey: #f2f2f2;
+
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.3rem;
+    //background-color: $background-grey;
+  }
+
+.top-card{
+  background-color: #f7f7f7;
+  border-bottom: 0px;
+
+  .top-button-group .btn{
+    margin:0px 2px;
+  }
+}
+.read-list{
+  .button-row{
+    margin-top:12px;
+  }
+  .add-new-record .btn{
+    margin:5px 0px;
+  }
+  Table{
+
+    td.operation-buttons a{
+      margin:0px 5px;
+    }
+
+  }
+}
+ 
+ 
+
+
+
+
+

@@ -1,0 +1,21 @@
+//we need make sure we want to us typescript which is in our project not in out machine
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "jsx": "react",
+      "module": "commonjs",      
+      "outDir": "./dist/",
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "target": "es2015"
+    },
+    "include": [
+      "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
